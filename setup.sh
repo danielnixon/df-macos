@@ -3,13 +3,13 @@ set -euo pipefail
 IFS=$'\n\t'
 
 # Download df itself
-curl -LO https://www.bay12games.com/dwarves/df_47_04_osx.tar.bz2
+curl -LO https://www.bay12games.com/dwarves/df_47_05_osx.tar.bz2
 
 # Download Mayday graphics
 curl -LO https://github.com/DFgraphics/Mayday/archive/47.04.tar.gz
 
 # Extract both
-tar -xf df_47_04_osx.tar.bz2
+tar -xf df_47_05_osx.tar.bz2
 tar -xf 47.04.tar.gz
 
 # Copy the Mayday graphics set into place
